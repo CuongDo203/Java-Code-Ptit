@@ -1,0 +1,45 @@
+import java.util.Scanner;
+
+public class BangDiemTuyenSinh {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		sc.close();
+	}
+
+}
+
+class ThiSinh{
+	private String ma, ten;
+	private double dToan, dLy, dHoa;
+	
+	public ThiSinh(String ma, String ten, double dToan, double dLy, double dHoa) {
+		this.ma = ma;
+		this.ten = ten;
+		this.dToan = dToan;
+		this.dLy = dLy;
+		this.dHoa = dHoa;
+	}
+
+	public String getMa() {
+		return ma;
+	}
+
+	public void setMa(String ma) {
+		this.ma = ma;
+	}
+
+	public String getTen() {
+		return ten;
+	}
+
+	public void setTen(String ten) {
+		this.ten = ten;
+	}
+
+	public double getDiemUuTien() {
+		
+	}
+	
+}

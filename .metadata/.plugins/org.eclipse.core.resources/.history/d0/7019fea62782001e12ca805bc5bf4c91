@@ -1,0 +1,13 @@
+
+public class TraCuuDonHang {
+
+	public static void main(String[] args) {
+		
+	}
+
+}
+
+class DonHang{
+	private String ten, ma;
+	private double donGia;
+}

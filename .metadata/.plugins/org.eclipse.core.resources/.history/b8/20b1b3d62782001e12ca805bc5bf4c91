@@ -1,0 +1,23 @@
+
+public class TraCuuDonHang {
+
+	public static void main(String[] args) {
+		
+	}
+
+}
+
+class DonHang{
+	private String ten, ma;
+	private double donGia;
+	private int soLuong;
+	
+	public DonHang(String ten, String ma, double donGia, int soLuong) {
+		this.ten = ten;
+		this.ma = ma;
+		this.donGia = donGia;
+		this.soLuong = soLuong;
+	}
+	
+	
+}

@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class BangDiemTuyenSinh {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		sc.close();
+	}
+
+}
+
+class ThiSinh{
+	private String ma, ten;
+	private double dToan, dLy, dHoa;
+}

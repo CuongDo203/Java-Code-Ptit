@@ -1,0 +1,50 @@
+
+public class XepHangHocSinh {
+
+	public static void main(String[] args) {
+		
+	}
+
+}
+
+class HocSinh{
+	private String ma, ten;
+	private double dtb;
+	private static int STT=1;
+	private int xephang;
+	
+	public HocSinh(String ten, double dtb) {
+		this.ma = "HS" + String.format("%02d", STT++);
+		this.ten = ten;
+		this.dtb = dtb;
+	}
+	
+	public String getXepLoai() {
+		if(this.dtb>9) return "Gioi";
+		else if(this.dtb>=7) return "Kha";
+		else if(this.dtb >= 5) return "Trung binh";
+		else return "Yeu";
+	}
+
+	public int getXephang() {
+		return xephang;
+	}
+
+	public void setXephang(int xephang) {
+		this.xephang = xephang;
+	}
+
+	public double getDtb() {
+		return dtb;
+	}
+
+	public void setDtb(double dtb) {
+		this.dtb = dtb;
+	}
+
+	@Override
+	public String toString() {
+		return ma+" "+ten+" "+dtb+" "+ getXepLoai()+" "+xephang;
+	}
+	
+}

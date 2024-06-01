@@ -1,0 +1,37 @@
+
+public class TraCuuDonHang {
+
+	public static void main(String[] args) {
+		
+	}
+
+}
+
+class DonHang{
+	private String ten, ma;
+	private double donGia;
+	private int soLuong;
+	
+	public DonHang(String ten, String ma, double donGia, int soLuong) {
+		this.ten = ten;
+		this.ma = ma;
+		this.donGia = donGia;
+		this.soLuong = soLuong;
+	}
+
+	private String getThuTu() {
+		return this.ma.substring(1,4);
+	}
+	
+	public double getGiamGia() {
+		if(this.ma.substring(4).equals("1")) {
+			return this.donGia*this.soLuong*50/100;
+		}
+	}
+
+	@Override
+	public String toString() {
+		return ;
+	}
+	
+}
